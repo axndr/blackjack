@@ -193,11 +193,13 @@ while True:  # Initiate game play loop
 
         dealer_hand.print_hand_dealer_start()
 
+        """  # Split and Double Down not implemented yet
         if split_check(player_hand):
             player_split = [player_hand]
             player_split.append(Hand(player_split[0].cards.pop(1)))
         if double_down_check(player_hand):
             pass
+        """
 
         p_nat = natural_check(player_hand)
         d_nat = natural_check(dealer_hand)
