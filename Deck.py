@@ -1,5 +1,5 @@
 import random
-from Card import *
+from Card import Card
 
 
 class Deck:
@@ -25,3 +25,4 @@ class Deck:
 if __name__ == "__main__":
     deck1 = Deck()
     deck1.print_deck()
+    
